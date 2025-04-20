@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 
 public class SauceDemo {
 	
-	@Test (enabled=false)
+	@Test
 	public void testtitleofwebsite()
 	{
 		WebDriver driver= new ChromeDriver();
@@ -27,7 +27,7 @@ public class SauceDemo {
 		
 	}
 	
-	@Test(enabled=false)
+	@Test
 	public void testUsernametext()
 	{
 		WebDriver driver= new ChromeDriver();
@@ -49,7 +49,7 @@ public class SauceDemo {
 		Assert.assertEquals(actResult, expResult);
 	}
 	
-	@Test (enabled=false)
+	@Test 
 	public void testvalidlogincreditials()
 	{
 		WebDriver driver= new ChromeDriver();
@@ -63,7 +63,7 @@ public class SauceDemo {
 		Assert.assertEquals(actResult, expResult);
 	}
 	
-	@Test (enabled=false)
+	@Test 
 	public void testInvalidlogincreditials()
 	{
 		WebDriver driver= new ChromeDriver();
@@ -78,7 +78,7 @@ public class SauceDemo {
 	
 	}
 	
-	@Test (enabled=false)
+	@Test 
 	public void testblankusernamefield()
 	{
 		WebDriver driver= new ChromeDriver();
@@ -91,7 +91,7 @@ public class SauceDemo {
 		Assert.assertEquals(actResult, expResult);
 	}
 	
-	@Test (enabled=false)
+	@Test 
 	public void testblankpasswordfield()
 	{
 		WebDriver driver= new ChromeDriver();
@@ -105,7 +105,7 @@ public class SauceDemo {
 	}
 	
 	
-	@Test (enabled=false)
+	@Test 
     public void TestwelcometitleofWebsite()
     {
     	WebDriver driver= new ChromeDriver();
@@ -144,7 +144,7 @@ public class SauceDemo {
 	} 
 	
 	
-	@Test (enabled=false)
+	@Test
 	public void testselectoptions()
 	{
 	WebDriver driver= new ChromeDriver();
@@ -166,7 +166,7 @@ public class SauceDemo {
     Assert.assertTrue(alactResult.contains("Select(A to Z)"));
 	}
 	
-	@Test (enabled=false)
+	@Test 
 	public void testOpenMenueButton()
 	{
 	WebDriver driver= new ChromeDriver();
@@ -185,7 +185,7 @@ public class SauceDemo {
 	
 	}
 	
-	@Test (enabled=false)
+	@Test 
 	public void testYourCartofWebsite()
 	{
 	WebDriver driver= new ChromeDriver();
@@ -201,7 +201,7 @@ public class SauceDemo {
 	
 	}
 	
-	@Test (enabled=false)
+	@Test 
 	public void testAddCartButton()
 	{
 	WebDriver driver= new ChromeDriver();
